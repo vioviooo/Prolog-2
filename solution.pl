@@ -55,6 +55,6 @@ solve :-
     term3(Second_truth, Today),
     term4(Second_truth, Second),
     
-    write('First: '), write(First), nl,
-    write('Second: '), write(Second), nl,
+    write('1st: '), write(First), nl,
+    write('2nd: '), write(Second), nl,
     write('Today: '), write(Today), nl, !.
